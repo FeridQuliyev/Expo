@@ -1,0 +1,70 @@
+.bgcolor{
+background: url("../image/expo12.webp");
+height: 250px;  
+margin-top: 100px;  
+}
+.container{
+width: 1180px;
+margin: 0 auto;        
+}
+.cards{
+display: flex;
+justify-content: space-between;    
+padding-top: 80px;    
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #fff;    
+}
+.card h1{
+font-size: 40px;
+font-weight: 700;
+}
+.card p{
+width: 800px;
+font-size: 18px;
+line-height: 22px;
+padding-top: 15px;
+font-weight: 600;
+}
+.but{
+margin-top: 20px;    
+}
+.but button{
+padding: 15px 25px;  
+font-size: 18px;
+font-weight: 600;  
+color: #fff;
+background: transparent;
+border: 1px solid #fff;
+letter-spacing: 1.2px;
+border-radius: 22px;
+transition: 0.3s; 
+cursor: pointer;
+}
+.but button:hover{
+background:#ff5800 ;
+border-color: #ff5800; 
+}
+@media screen and (max-width: 1200px){
+.bgcolor{
+height:100%; 
+padding: 20px;   
+}    
+.container{
+width: 100%;      
+}
+.cards{
+text-align: center;    
+display: block;   
+padding-top: 10px; 
+}
+.card h1{
+width: 80%; 
+margin: 0 auto;   
+font-size: 30px;    
+}
+.card p{
+width: 90%;  
+margin: 0 auto;  
+}
+
+}

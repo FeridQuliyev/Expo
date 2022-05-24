@@ -1,0 +1,133 @@
+.container{
+width: 1180px;
+margin: 0 auto;    
+}
+.form{
+margin-top: 100px;    
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form h1{
+color: #423f8d;  
+font-weight: 600;  
+font-size: 30px;
+}
+.cards{
+display: flex;    
+justify-content: space-between;
+}
+.textarea textarea{
+resize: none;  
+width: 750px;
+height: 200px;
+padding: 10px;
+outline: none;
+margin-top: 30px;
+border: 1px solid rgba(128, 128, 128, 0.356);
+}
+.inputs{
+width: 100%;   
+display: flex;
+justify-content: space-between;   
+margin-top: 40px; 
+}
+.input input{
+width: 360px; 
+height: 43px;
+outline: none;
+padding: 10px;
+border: 1px solid rgba(128, 128, 128, 0.356);
+}
+.sub{           
+margin-top: 40px;     
+}
+.sub input{
+width: 750px; 
+height: 43px;
+outline: none;
+padding: 10px;
+border: 1px solid rgba(128, 128, 128, 0.356);    
+}
+.but{
+margin-top: 40px;    
+}
+.but button{
+padding: 15px 38px;  
+font-size: 17px;  
+letter-spacing: 1.1px;
+background: #ff5800;
+border: none;
+border-radius: 25px;
+color: #fff;
+cursor: pointer;    
+}
+.icons{
+display: flex; 
+margin-top: 30px;
+}
+
+.icon i{
+font-size: 23px;   
+color: rgb(43, 42, 42); 
+}
+.icon h1{
+padding: 0 20px;    
+color: rgb(43, 42, 42); 
+font-size: 18px;   
+}
+.icon p{
+padding: 0 20px; 
+font-size: 17px;    
+margin-top: 10px;
+color: grey;
+}
+@media screen and (max-width: 1225px){
+.container{
+width: 100%;    
+} 
+.cards{
+display: block;    
+}
+#get{
+width: 90%;
+margin: 0 auto;    
+}
+.textarea{
+width: 90%;
+margin: 0 auto;    
+}
+.textarea textarea{
+width: 100%;   
+}
+.inputs{
+display: block;    
+width: 90%;
+margin: 0 auto; 
+padding-top: 10px;
+}
+.inputs input{
+width: 100%;   
+margin-bottom: 10px;
+}
+.sub{
+width: 90%;
+margin: 0 auto;    
+}
+.sub input{
+width: 100%;    
+}
+.but{
+width: 90%;
+margin: 0 auto; 
+padding-top: 20px;   
+}
+.but button{
+padding: 12px 35px;  
+font-size: 16px;     
+}
+.icons{
+width: 90%;
+margin: 0 auto;
+padding-top: 30px;
+}
+
+}

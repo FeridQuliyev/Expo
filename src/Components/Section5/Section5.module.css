@@ -1,0 +1,125 @@
+.container{
+width: 1180px;
+margin: 0 auto;    
+}
+.cards{
+display: flex;
+justify-content: space-between;    
+padding-top: 100px;    
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+margin-top: 70px;    
+}
+.card h1{
+font-size: 45px;   
+font-weight: bold; 
+color: #423f8d;
+width: 600px;
+line-height: 50px;
+letter-spacing: 1.3px;
+}
+.card p{
+color: gray;
+width: 550px;
+font-size: 18px;
+padding-top: 30px;
+line-height: 22px;
+letter-spacing: 1.1px;
+font-weight: 500;
+}
+.cardimg img{
+width: 580px;   
+height: 400px; 
+object-fit: cover;
+}
+.but{
+margin-top: 40px;    
+}
+.but button{
+padding: 17px 32px;  
+font-size: 18px;  
+letter-spacing: 1.1px;
+background: #ff5800;
+border: none;
+border-radius: 25px;
+color: #fff;
+cursor: pointer;
+}
+@media screen and (max-width: 767px){
+.container{
+width: 100%;    
+}    
+.cards{
+display: block;   
+padding-top: 10px; 
+}    
+.card h1{
+width: 90%;  
+margin: 0 auto;      
+font-size: 30px;
+line-height: 30px;  
+}
+.card p{
+font-size: 20px;
+line-height: 25px;
+width: 90%;  
+margin: 0 auto;  
+padding-top: 10px;
+}
+.but{
+width: 90%;  
+margin: 0 auto;      
+margin-top: 30px;    
+}
+.but button{
+padding: 14px 25px;    
+}
+.cardimg{
+width: 90%;  
+margin: 0 auto;     
+padding-top: 20px;  
+}
+.cardimg img{
+width: 100%;   
+height: 320px; 
+}    
+}
+@media (min-width: 768px) and (max-width: 1220px){
+.container{
+width: 100%;    
+}   
+.cards{  
+padding-top: 10px; 
+}  
+.card h1{
+width: 90%;  
+margin: 0 auto;      
+font-size: 30px;
+line-height: 30px;  
+}
+.card p{
+font-size: 20px;
+line-height: 25px;
+width: 90%;  
+margin: 0 auto;  
+padding-top: 10px;
+}
+.but{
+width: 90%;  
+margin: 0 auto;      
+margin-top: 30px;    
+}
+.but button{
+padding: 14px 25px;    
+}
+.cardimg{
+width: 100%;  
+margin: 0 auto;     
+padding-top: 20px;  
+}
+.cardimg img{
+width: 100%;   
+height: 320px; 
+}    
+}

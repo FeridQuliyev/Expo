@@ -1,0 +1,131 @@
+.container{
+width: 1180px;
+margin: 0 auto;    
+}
+.text{
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 100px;    
+}
+.text h1{
+font-size: 40px;  
+font-weight: bold; 
+color: #423f8d;  
+padding-top: 60px;
+letter-spacing: 1.1px;
+}
+.text p{
+width: 55%; 
+margin: 0 auto;
+font-size: 18px; 
+padding-top: 15px; 
+line-height: 24px; 
+color: rgba(83, 83, 83, 0.596);
+font-weight: 500;
+}
+.cards{
+display: flex;
+justify-content: space-between;    
+margin-top: 60px;    
+}
+.card{
+width: 350px;
+height: 530px;
+background-color: rgba(255, 192, 203, 0.13);  
+box-shadow: 0 12px 20px rgba(0, 0, 0, 0.075);     
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+transition: 0.3s all ease-in-out;
+}
+.card:hover{
+background-color: #fff;    
+box-shadow: 0 12px 20px rgba(255, 192, 203, 0.651) ; 
+}
+.but{
+text-align: center;  
+margin-top: 35px;
+}
+.but button{
+padding: 10px 20px; 
+font-size: 17px;   
+font-weight: 600;
+background: transparent;
+border: 1px solid #423f8d;
+border-radius: 25px;
+}
+.icons{
+display: flex;  
+justify-content: center;
+margin-top: 30px;
+color: #ff5800;
+}
+.icons i{
+font-size: 18px;   
+}
+.icons span{
+font-weight: bold;   
+font-size: 35px; 
+padding: 0 5px;
+}
+.title h1{
+width: 70%;    
+margin: 0 auto;
+font-size: 17px;
+font-weight: 400;
+padding-top: 25px;
+line-height: 22px;
+text-align: center;   
+color: rgba(83, 83, 83, 0.815); 
+}
+.line{
+width: 80%;
+margin: 0 auto;  
+padding-top: 30px;  
+border-bottom: 1px solid rgba(83, 83, 83, 0.308) ;
+}
+.ptext{
+text-align: center;  
+margin-top: 15px;  
+line-height: 40px;
+font-size: 18px;
+color: rgba(83, 83, 83, 0.815); 
+}
+.but1{
+text-align: center;  
+margin-top: 25px;    
+}
+.but1 button{
+padding: 15px 32px;  
+font-size: 18px;  
+letter-spacing: 1.1px;
+background: #ff5800;
+border: none;
+font-weight: 600;
+border-radius: 25px;
+color: #fff;
+cursor: pointer;    
+}
+@media screen and (max-width: 1175px){
+.container{
+width: 90%;
+margin: 0 auto;    
+}
+.text h1{
+width: 70%;
+margin: 0 auto;
+font-size: 25px;    
+}
+.text p{
+width: 90%;    
+}    
+.cards{
+flex-wrap: wrap;
+}
+.card{
+width: 90%;
+margin: 0 auto;    
+margin-bottom: 30px;    
+}
+.but1 button{
+padding: 14px 20px;     
+}
+}
